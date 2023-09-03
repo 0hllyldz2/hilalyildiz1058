@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .showcase {
+            padding-bottom: 40px;
+        }
+        #container {
+            background-color: chocolate;
+        }
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: rebeccapurple;
+            float: right;
+        }
+        #box1 {
+            float: left;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <section class="showcase">
+        <div id="container">
+            <div class="box" id="box1">kutu 1</div>
+            <div class="box">kutu 2</div>
+            <div class="box">kutu 3</div>
+            <div style="clear: both;"></div>
+        </div>
+    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam cupiditate cum, corporis eos ducimus nostrum? Distinctio officia temporibus accusamus aliquam ratione adipisci nulla voluptatem nihil, accusantium esse itaque hic rerum.</p>
+    </section>
+    
+    <section class="showcase">
+        <div id="container2">
+            <div class="box">kutu 1</div>
+            <div class="box">kutu 2</div>
+            <div class="box">kutu 3</div>
+            <div style="clear: left;"></div>
+        </div>
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam cupiditate cum, corporis eos ducimus nostrum? Distinctio officia temporibus accusamus aliquam ratione adipisci nulla voluptatem nihil, accusantium esse itaque hic rerum.</p>
+    </section>
+
+    <section class="showcase">
+        <div id="container">
+            <div class="box" id="box1">kutu 1</div>
+            <div class="box">kutu 2</div>
+            <div class="box">kutu 3</div>
+            <div style="clear: both;"></div>
+        </div>
+    
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam cupiditate cum, corporis eos ducimus nostrum? Distinctio officia temporibus accusamus aliquam ratione adipisci nulla voluptatem nihil, accusantium esse itaque hic rerum.</p>
+    </section>
+
+    <section class="showcase">
+        <div id="container3" class="clearfix">
+            <div class="box">kutu 1</div>
+            <div class="box">kutu 2</div>
+            <div class="box">kutu 3</div>
+            <!-- <div style="clear: left;"></div> -->
+        </div>
+        
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam cupiditate cum, corporis eos ducimus nostrum? Distinctio officia temporibus accusamus aliquam ratione adipisci nulla voluptatem nihil, accusantium esse itaque hic rerum.</p>
+    </section>
+
+</body>
+</html>
