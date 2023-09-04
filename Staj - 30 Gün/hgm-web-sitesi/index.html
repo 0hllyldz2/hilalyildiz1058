@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>   
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="body"> 
+
+    <header class="main-header">
+        <div id="main-nav" class="container">
+            <a href="#" class="main-header__logo">Havran Gençlik Merkezi</a>
+            <nav class="main-nav">
+                <ul class="main-nav__items">
+                    <li class="main-nav__item">
+                        <a href="#">Hakkımızda</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Etkinlikler</a>
+                    </li>
+                    <li class="main-nav__item main-nav__item--login">
+                        <a class="btn btn-secondary" href="register.html">Giriş</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#" onclick="displayMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+
+    <main>
+        <section id="showcase">
+            <div class="content">
+                <h2>GENÇLİK MERKEZİMİZE HOŞGELDİNİZ</h2>
+                <h3>
+                    Gençler, yetenekleriniz tarafınızdan etrafınız sarıldı, teslim olun ve BİZE KATILIN &#128512
+                </h3>
+            </div>
+        </section>
+        <section id="how-it-works">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title">Havran Gençlik Merkezi</h2>
+                    <p>Gençlerin serbest zamanlarını değerlendirmelerine yardımcı olmak, gençleri sosyal, kültürel, sanatsal, bilimsel ve sportif faaliyetlere yönlendirmek gençlerin kişisel, sosyal ve ruhsal gelişimine katkıda bulunmak,  gençlere rehberlik ve danışmanlık yapmak,  gençleri zararlı alışkanlıklara karşı bilinçlendirmek ve gençlerin çeşitli aktiviteler içinde yer alarak sosyal beceriler kazanabilmesi ve paylaşımlarda bulunabilmeleri amacıyla çeşitli çalışmalar yapan, tarihi ve kültürel geziler, kamplar ve spor faaliyetleri düzenleyen merkezlerdendir.</p>
+                </div>
+
+                <section id="movies">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3 card-container">
+                                    <div class="card">
+                                        <img class="card-image img-fluid" src="img/sanat-atölyesi.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h2>Sanat Atölyesi</h2>
+                                            <p>Sadece sanat eserlerinin yaratılması için değil, aynı zamanda sanatın terapötik etkilerini deneyimlemek isteyenler için de bir sığınak görevi görür. İnsanların duygularını ifade etmek ve kendilerini ifade etmek için bu mekanları kullanmalarına olanak tanır.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 card-container">
+                                    <div class="card ">
+                                        <img class="card-image img-fluid" src="img/sportif-faaliyet.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h2>Spor Faaliyetleri</h2>
+                                            <p>Yaş, cinsiyet veya fiziksel yeteneklere bakılmaksızın herkes için uygundur. Herhangi bir spor dalını seçmek, kişisel hedeflere ulaşmak ve sağlıklı bir yaşam tarzını benimsemek için bir adım atmaktır. Unutmamak gerekir ki spor sadece bedeni değil, aynı zamanda ruhu da besler ve dengeler. Bu nedenle spor faaliyetleri, sağlıklı, mutlu ve dengeli bir yaşamın ayrılmaz bir parçasıdır.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 card-container">
+                                    <div class="card ">
+                                        <img class="card-image img-fluid" src="img/rehberlik-hizmetleri.jpeg" alt="">
+                                        <div class="card-body">
+                                            <h2>Rehberlik Hizmetleri</h2>
+                                            <p>Turistlerin güvende hissetmelerine ve kaybolma veya karşılaşılan zorluklarla başa çıkmalarına yardımcı olabilir. Aynı zamanda daha az bilinen gizli hazineleri keşfetme fırsatı sunar ve seyahat deneyimini kişiselleştirir.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                </section>
+            </div>
+        </section>
+        <section id="counters">
+            <div class="row counter">
+                <div class="col-3">
+                    <span class="counter__item">8</span>
+                    <h4>Atölye</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">4</span>
+                    <h4>Klüp</h4>
+                </div>
+                <div class="col-3">
+                    <span class="counter__item">263</span>
+                    <h4>Üye</h4>
+                </div>
+            </div>
+        </section>
+        <section id="plans">
+            <h2 class="section-title">Popüler Faaliyetler</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 plan">
+                        <div class="inner-plan">
+                            <h2>Halk Oyunları</h2>
+                            <h3>Kültürel Bir Zenginlik</h3>
+                            <ul class="plan__features">
+                                <li>Bir topluluğun kültürel mirasının bir yansıması olarak ortaya çıkan ve genellikle topluluk etkinliklerinin bir parçası olarak icra edilen geleneksel dans ve performans sanatlarıdır.</li>
+                                <li>Bu oyunlar, genellikle belli bir coğrafi bölgeye veya etnik gruplara özgüdür ve nesiller boyunca aktarılan geleneklerin bir parçasıdır.</li>
+                                <li>Genellikle belirli bir temayı veya hikayeyi anlatmak amacıyla icra edilir.</li>
+                                <li>Bu temalar, tarım işleri, aşk, doğa, dini ritüeller veya tarihi olaylar gibi çeşitli konuları kapsayabilir. </li>
+                                <li>Genellikle canlı müzik eşliğinde sergilenir ve dansçıların kostümleri ve hareketleri, oyunun temasını ve geleneği yansıtır.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">bilgi için</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 plan plan--featured">
+                        <div class="inner-plan recommended_plan">
+                            <h2 class="plan__badge">E-spor</h2>
+                            <h3>Dijital Arenada</h3>
+                            <h2>Yükselen Yıldızlar</h2>
+                            <ul class="plan__features">
+                                <li>Günümüzün en hızla büyüyen ve popüler spor dallarından biri olarak öne çıkıyor.</li>
+                                <li>ilgisayarlar, konsollar ve diğer oyun platformları üzerinde rekabetçi oyunlar oynayan oyuncuların katıldığı bu fenomen, giderek daha büyük bir küresel takipçi kitlesi kazanıyor.</li>
+                                <li>Çeşitliliği oldukça geniş. Strateji oyunlarından, savaş oyunlarına, spor simülasyonlarından, dövüş oyunlarına kadar birçok farklı türde yarışmalar düzenleniyor.</li>
+                                <li>Oyuncular, bireysel olarak veya takım halinde, turnuvalarda ve liglerde birbirleriyle rekabet ediyorlar. </li>
+                                <li>Bu rekabetler, büyük ödül paraları ve sponsorluk anlaşmaları ile daha da cazip hale geliyor.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">bilgi için</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 plan">
+                        <div class="inner-plan">                    
+                            <h2>Robotik Kodlama</h2>
+                            <h3>Geleceğin Teknolojisi</h3>
+                            <ul class="plan__features">
+                                <li>Bilgisayar programlama ve mekanik mühendisliğin birleştiği heyecan verici bir alandır.</li>
+                                <li>Bu alan, özellikle çocuklar ve gençler arasında giderek popülerleşiyor çünkü hem eğlenceli hem de eğitici bir deneyim sunuyor. </li>
+                                <li>Birçok farklı uygulama alanında kullanılabilecek beceriler geliştirmenin yanı sıra, geleceğin teknolojisinin temellerini atmada da büyük bir rol oynamaktadır.</li>
+                                <li>Öğrencilere ve meraklılara, robotlar ve otomasyon sistemleri üzerinde kontrol sağlama yeteneği kazandırır.</li>
+                                <li>Temelde, bir robotu veya bir cihazı belirli görevleri yerine getirmek için kodlama yapma sürecidir.</li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-primary">bilgi için</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="row">
+                <div class="col-2 features__left"></div>
+                <div class="col-2 features__right">
+                    <h3>Sende Bizimle Beraber Ol!</h3>
+                    <p>Gençlik Merkezimizde Seni Bekliyoruz. Haydi Şimdi Kayıt Ol &#9997</p>
+                    <a class="btn btn-secondary" href="https://www.havran.bel.tr/genclik-merkezi/genclik-merkezi-kayit-formu/">Kayıt ol</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul id="footer-links">
+                        <li><a href="https://www.havran.bel.tr/">Havran Belediyesi</a></li>
+                        <li>/</li>
+                        <li><a href="https://www.havran.bel.tr/iletisim/">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul id="social-links">
+                        <li><a href="https://www.facebook.com/HavranBLD" class="fab fa-facebook"></a></li>
+                        <li><a href="https://twitter.com/HavranBLD" class="fab fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/havrangenclik_merkezi/" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById("main-nav");
+            link.classList.toggle("responsive");
+        }
+    </script>
+
+</body>
+</html>
